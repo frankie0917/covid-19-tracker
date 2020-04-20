@@ -1,0 +1,23 @@
+.DataIndicator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: calc(1rem + 100%);
+}
+
+.DataIndicator > * {
+  margin: 0 .5rem;
+}
+
+.muted{
+  opacity: .7;
+}
+
+.recoverd{
+  border-bottom: 7px solid lightgreen;
+}
+.confirmed{
+  border-bottom: 7px solid lightblue;
+}
+.death{
+  border-bottom: 7px solid lightcoral;
+}
